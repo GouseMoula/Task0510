@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="@dimen/layout_padding"
+    tools:context="compindia.task0510.LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_botom"
+        android:text="@string/signin_here"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/top_txt_size"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/edtxt_user_email_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/et_padding"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:hint="@string/your_email"
+        android:inputType="textEmailAddress"
+        android:paddingEnd="@dimen/et_padding"
+        android:paddingStart="@dimen/et_padding" />
+
+    <EditText
+        android:id="@+id/edtxt_userpassword_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/et_padding"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:drawableStart="@drawable/ic_lock"
+        android:hint="@string/password"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:paddingEnd="@dimen/et_padding"
+        android:paddingStart="@dimen/et_padding" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_padding"
+        android:background="@drawable/button_shape"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="@dimen/btn_txt_size" />
+
+</LinearLayout>

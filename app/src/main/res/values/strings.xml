@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Task0510</string>
+
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="signup_here">Signup here</string>
+    <string name="your_name">Your name</string>
+    <string name="all_fields_are_mandatory">* All fields are mandatory</string>
+    <string name="your_email">Email id</string>
+    <string name="phone_number">Phone number</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create account</string>
+    <string name="terms">* By clicking on create account you agree to our terms of service and privacy policy.</string>
+    <string name="email_or_phone">Email or Phone</string>
+    <string name="signin_here">Signin here</string>
+    <string name="login">Login</string>
+    <string name="dummy_text">Dummy text</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="name_error_title">Please enter a valid name</string>
+    <string name="name_error_message">Your name must have minimum of 3 characters without any special characters.</string>
+
+    <string name="email_error_title">Invalid email id</string>
+    <string name="email_error_message">Please enter a valid email id.</string>
+
+    <string name="phone_error_title">Invalid mobile number</string>
+    <string name="phone_error_message">Please enter a valid mobile number exactly 10 digits.</string>
+
+    <string name="password_error_title">Invalid password</string>
+    <string name="password_error_message">Please enter a valid alphanumeric password of minimum 4 characters to max 10 characters with no special characters.</string>
+    <string name="email">Email</string>
+    <string name="example_email_com">example@email.com</string>
+    <string name="logout">Logout</string>
+    <string name="mobile">Mobile</string>
+    <string name="delete_my_account">Delete my account</string>
+    <string name="user_account_info">Account Info</string>
+</resources>
